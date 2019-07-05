@@ -4,15 +4,15 @@ Building with Bootstrap Framework for Microverse Project.
 
 Course: HTML AND CSS
 
-Contributors
+Contributors:
 Elukoye
 
-Project Goal
+Project Goal:
 Build a clone of the Newsweek site using twitter Bootstrap
 
 This project was completed as part of the Microverse cirriculum.
 
-Assignment Description
+Assignment Description:
 Using Bootstrap
 [Solo Project]
 This project requests students to build a replica of the news site Newsweek.com using the Bootstrap framework.
