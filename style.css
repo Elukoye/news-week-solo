@@ -1,0 +1,30 @@
+body {
+  font-family: Arial,Helvetica,sans-serif;
+}   
+
+.container-fluid {
+  background-color: #f3f3f3;
+  /* height:10rem; */
+  margin-bottom:0.5rem;
+}
+.column{
+  background-color: aquamarine;
+  height:15rem;
+  margin-top:0.5rem;
+}
+.row{
+  height:15rem;
+}
+.col-sm{
+  background-color: teal;
+}
+.mb-3{
+  background-color:#f72210; 
+}
+.d-inline-flex{
+  
+}
+.p-2{
+  border-right:1px solid black;
+  margin-right:2rem;
+}
