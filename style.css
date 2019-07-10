@@ -14,10 +14,8 @@ body {
   height:15rem;
   margin-top:0.5rem;
 }
-.row{
-  height:15rem;
- ? background-color: aquamarine;
-}
+
+
 /* links */
 .p-2 a:hover{
   color:#f72210;
@@ -168,4 +166,14 @@ input{
 h3{
   margin-bottom: 5rem;
   position: relative;
+}
+/* main section */
+
+.col-3{
+  /* background-color: aquamarine; */
+  height:30rem;
+}
+#middle{
+  /* background-color: aqua; */
+  height:30rem;
 }
