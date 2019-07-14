@@ -255,6 +255,12 @@ h3 {
  height:90px;
 }
 /* bottom-section */
+.bottom-sec-title{
+  background-color: aquamarine;
+  margin-left:20.5rem;
+  padding:1px;
+  margin-top:1rem;
+}
 .bottom-media{
   width:300px;
   height:311px;
@@ -262,4 +268,36 @@ h3 {
 }
 .bottm{
  margin-left:1rem;
+ 
+}
+.bottm-title-1 a{
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    /* margin-right: 7px; */
+    margin: 2rem 0 0 0; 
+}
+.bottm-title-2{
+  background-color: aquamarine;
+  width:50%;
+  position:relative;
+  left:5.1rem;
+  bottom:1.4rem;
+  
+}
+.info h6{
+  line-height:2.5rem;
+  font-weight:bold;
+  
+}
+.editors-pick-media{
+  height:234px;
+  width:320px;
+}
+/* slideshow */
+.col-4-auto{
+  margin-right:2rem;
+}
+.row{
+  justify-content: space-around;
 }
