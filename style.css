@@ -301,3 +301,25 @@ h3 {
 .row{
   justify-content: space-around;
 }
+/* below slideshow */
+.info-title {
+
+  position:relative;
+  left:8.7rem;
+  bottom:5rem;
+  
+}
+/* subscribe section */
+.lk-button{
+  background-color: #f72210;
+  padding: 10px 10px 10px 12px;
+  width:30%;
+  text-align: center;
+}
+.lk-button a{
+  color:#fff;
+  font-size: 1.3rem;
+}
+.block-title-red{
+  color: #f72210;
+}
