@@ -180,9 +180,10 @@ h3 {
 
 /* main section */
 
+
 .middle-img{
   height:364px;
-  width:550px;
+  width:500px;
 }
 
 .middle-section {
@@ -193,8 +194,7 @@ h3 {
   border-bottom: 1px solid #d9d9d9; 
   border-top: 1px solid #d9d9d9; 
   padding: 0.5rem 0; 
-  
-  
+   
 }
 
 .col-sm-auto {
