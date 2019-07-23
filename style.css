@@ -59,7 +59,6 @@ body{
     margin-left:4rem
   }
   .description{
-    
     position: relative;
     right:4rem;
     width: 100%;
@@ -98,6 +97,7 @@ body{
   }
   .daily,.sub-p{
     margin-left: 6rem;
+    margin-top: 1rem;
     
   }
   .footer-menu,.ftr a{
@@ -129,20 +129,85 @@ body{
     right:27rem;
   }
   .block-title{
-    margin-top:3rem;
     margin-left:20rem;
+    margin-top:3rem;
+    
   }
   .left-side-img{
     margin:0 auto;
     
   }
+  .block-title{
+    display: inline;
+    position:relative;
+    right:10rem;
+  }
+  .magazine-row{
+    margin-top:1.5rem;
+  }
+   .mag-title{
+    margin-top:1rem;
+    
+  } 
+  .middle-block{
+    margin-left: 22rem;
+    margin-top: 3rem;
+    
+  }
+  .circle-img{
+    margin-left:10rem;
+  }
+  .info{
+    margin-left:4rem;
+  }
+  .latest-img{
+    margin-left:6rem;
+  }
+  .sub-title{
+    margin-top: 2rem;
+  }
+  .sign-up-sec{
+    width:50%;
+  }
+  .finish{
+   width:80%;
+   margin-left: 5rem;
+  }
+  .lk-1{
+    margin-left:6rem;
+  }
+  .lk-2{
+    margin-left:3rem;
+  }
+  .sign-up-title{
+    margin-bottom:1rem;
+    margin-left: 1rem;
+    
+    
+  }
+ 
+  #sign-button{
+    display: none;
+    
+  }
+  .daily{
+    bottom:1.5rem;
+    left:1.4rem;
+    position:relative;
+    
+  }
+  .sub-p{
+    bottom:1rem;
+    left:1.5rem;
+    padding-right: 1rem;
+    position:relative;
+  }
 }
  
 /* nav-bar */
 .navbar{
-  
-  margin:0 auto;
   height:60px;
+  margin:0 auto;
   margin-left:1rem;
   margin-right: 1rem;
 }
@@ -159,7 +224,7 @@ body{
   border-left:1px solid #666;
 }
 input{
-  /* background-color: aqua; */
+
   width:8%;
   
 }
@@ -176,8 +241,9 @@ input{
 }
 
 .right-side-img{
-  width:325px;
   height:206px;
+  width:325px;
+  
 }
 
 .category{
@@ -194,8 +260,9 @@ input{
 
 /* middle-column */
 .middle-img{
-  width:403px;
   height:248px;
+  width:403px;
+ 
 }
 .info a{
  color: black;
@@ -216,11 +283,16 @@ input{
   font-weight: bold;
 }
 .more-img{
+  height:98px;
   width:98px;
-  height:98px
+  
 }
 
-  
+.sub-title a{
+  color:#000000;
+  font-size:16px;
+  font-weight: bold; 
+}  
 .title a{
   color:#000000;
   font-size:16px;
@@ -233,6 +305,10 @@ input{
 }
 
 /* right */
+.middle-block{
+  color:#A4A5A5;
+  font-weight: bold;
+}
 .latest-img{
   height:90px;
   width: 100px;
@@ -241,8 +317,9 @@ input{
 
 /* left */
 .left-side-img{
-  width:300px;
   height:206px;
+  width:300px;
+ 
 }
 /* below */
 .sign-up-sec{
@@ -290,8 +367,9 @@ input{
   color:#fff;
 }
 .heading,.slide-heading{
-  margin-bottom:1.5rem;
   line-height:18px;
+  margin-bottom:1.5rem;
+ 
 }
 .heading a,.slide-heading a{
   color:black;
@@ -302,8 +380,9 @@ input{
 
 /* editor's section */
 .editor-heading{
-  margin-bottom:1.5rem;
   line-height:18px;
+  margin-bottom:1.5rem;
+ 
 }
 .editor-heading a{
   color:black;
@@ -364,21 +443,18 @@ input{
   right:1rem;
   top:1rem;
  }
- @media (max-width:720px){
-  .img-2{
-    position: absolute;
-    left:2rem;
-    top:1rem;
-   }
- }
+.daily,.sub-p{
+  margin-left:1.5rem;
+}
  .subscribe-info{
   display:inline-block;
-  margin-left:25px;
   line-height:28px;
+  margin-left:25px;
+  
  }
  .subscribe-info a {
-   color:black;
-   font-size:20px;
+  color:black;
+  font-size:20px;
   font-weight: bold;
   
  }
@@ -407,7 +483,7 @@ input{
   padding: 28px 26px 64px;
 }
 .subscribe-img2{
-  height:273px;
+  height:300px;
   width:180px;
 }
 .sign-in{
@@ -415,8 +491,9 @@ input{
 }
 
 .para{
-  margin-left: 1.6rem;
   margin-bottom: 2rem;
+  margin-left: 1.6rem;
+ 
 }
 
 .column{
@@ -452,34 +529,36 @@ input{
   flex-wrap: wrap;
 }
 .footer-menu a{
-  padding-top: 6px;
+  color: #666;
   font-size: 16px;
   line-height: 15px;
-  color: #666;
+  padding-top: 6px;
+ 
+  
 }
 .edition-menu{
   display:flex;
   flex-wrap: wrap;
   margin-left:4rem;
-  margin-top:1rem;
   margin-right: 6rem;
-  /* background-color:#333; */ 
+  margin-top:1rem;
 }
 .edition-menu a{
-  padding-top: 6px;
+  color: #666;
   font-size: 16px;
   line-height: 15px;
-  color: #666;
+  padding-top: 6px;
+  
 }
 .edition-section{
-  /* background-color: #f72210; */
   bottom:3.5rem;
-  position: relative;
   left: 5rem;
+  position: relative;
+ 
  
   
 }
 .one{
-  /* background-color: aqua; */
+  
   margin-left:5rem;
 }
