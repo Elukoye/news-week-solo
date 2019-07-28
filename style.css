@@ -249,6 +249,9 @@ input{
     color:#f72210;
    }
  }
+ .card-title{
+   font-weight: bold;
+ }
  @media only screen and (min-width:320px) and (max-width:990px){
    #nav-menu{
      display: none;
